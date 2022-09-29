@@ -17,3 +17,5 @@ V2__add_data
 V3__create_table
 
 Every time the need to upgrade the database arises, whether it is the schema (DDL) or reference data (DML), we can simply create a new migration script with a version number higher than the current one. When Flyway starts, it will find the new script and upgrade the database accordingly.
+
+
